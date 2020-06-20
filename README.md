@@ -3,7 +3,8 @@
 Here you can find code of the attempt I made to implement an (Automatic) license plate recognition. This implemented is based on Connected Component Analysis, 
 Optical Character Recognition and Character classification.
 
-## Connected Component Analysis: CCA finds the connected regions from the images, connected pixels are the once that share the same value and are adjacent to each other.
+## Connected Component Analysis:
+ CCA finds the connected regions from the images, connected pixels are the once that share the same value and are adjacent to each other.
 The connected region is formed by collecting all such pixels.
 
 # Process
