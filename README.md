@@ -40,7 +40,8 @@ To segment character, the license plate was selected manually from the remaining
 For classification, I trained an SVC with the help of sklearn and I created a logistic regression model in Pytorch. The data of A-Z letters and 0-9 digits were used as training data. The training data can be found [here](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
 for predicting the license plate characters, separate scripts were made for SVC and torch models.
 
-## ToDos:
+## ToDo:
 
 * Improve the logic for finding the license plate amongst the candidates
 * Setup a testing and evaluation mechanism
+* Improve accuracy of torch based classifier
